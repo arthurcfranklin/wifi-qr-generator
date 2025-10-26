@@ -1,0 +1,14 @@
+# Pastas criadas pelo PyInstaller
+build/
+dist/
+
+# Arquivos Python compilados
+*.pyc
+__pycache__/
+
+# Arquivos de configuração do PyInstaller
+*.spec
+
+# IDEs e editores
+.vscode/
+.idea/
