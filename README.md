@@ -1,57 +1,108 @@
-# 🚀 Gerador de QR Code de Redes Wi-Fi
-
+# 📶 WiFi QR Generator
 ![Python](https://img.shields.io/badge/Python-3.11-blue) ![Tkinter](https://img.shields.io/badge/Tkinter-GUI-brightgreen) ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-Aplicativo desktop em **Python** que gera QR Codes para redes Wi-Fi de forma **rápida, prática e segura**. Basta informar o SSID, a senha (se houver) e o tipo de segurança.  
+Aplicação desktop desenvolvida em Python para geração de QR Codes de redes Wi-Fi, permitindo o compartilhamento rápido e seguro de credenciais sem a necessidade de digitação manual.
+
+O aplicativo gera QR Codes compatíveis com smartphones e dispositivos modernos, facilitando a conexão em redes domésticas, corporativas e ambientes de treinamento.
 
 ---
 
-## 💡 Funcionalidades
+## 🎯 Objetivo
 
-- Geração de QR Code para **WPA, WEP ou sem senha**.  
-- Validação de SSID e senha (mínimo 8 caracteres, sem caracteres inválidos).  
-- Salvar QR Code como imagem **PNG**.  
-- Visualização ampliada do QR Code dentro do app.  
-- **Offline e seguro** – nenhuma informação é armazenada.  
-- Interface moderna e intuitiva com **Tkinter** e **ttk**.  
+Simplificar o compartilhamento de redes Wi-Fi através da geração automatizada de QR Codes, proporcionando uma experiência prática, rápida e segura para usuários e administradores.
 
 ---
 
-## ⚡ Como Usar
+## ✨ Funcionalidades
 
-1. Execute o script Python (`.py`) ou o executável (`.exe`).  
-2. Informe o **nome da rede (SSID)** e a **senha**, se houver.  
-3. Selecione o tipo de segurança: **WPA, WEP ou sem senha**.  
-4. Clique em **Gerar QR Code**.  
-5. Use os botões para **salvar** ou **abrir** o QR Code gerado.  
+* Geração de QR Codes para redes:
+
+  * WPA
+  * WEP
+  * Redes sem senha
+
+* Validação de SSID e senha
+
+* Visualização do QR Code em tempo real
+
+* Exportação do QR Code em formato PNG
+
+* Abertura da imagem gerada diretamente pelo aplicativo
+
+* Funcionamento totalmente offline
+
+* Interface gráfica desenvolvida com Tkinter
 
 ---
 
-## 🦴 Estrutura do Projeto
+## 🖥️ Tecnologias Utilizadas
 
-- `main.py` → Código-fonte principal
-- `main.exe` → Executável gerado (opcional)
-- `assets/` → Ícone e arquivos usados pelo programa
+* Python 3.x
+* Tkinter
+* ttk
+* qrcode
+* Pillow (PIL)
 
 ---
 
-## 🔧 Tecnologias
+## 📂 Estrutura do Projeto
 
-- **Python 3.x**  
-- **Tkinter** (Interface gráfica)  
-- **qrcode** (Geração de QR Codes)  
-- **Pillow (PIL)** (Manipulação de imagens)  
+```text
+wifi-qr-generator/
+├── assets/
+├── main.py
+├── README.md
+└── .gitignore
+```
+
+---
+
+## 🚀 Como Executar
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/arthurcfranklin/wifi-qr-generator.git
+```
+
+2. Acesse o diretório do projeto:
+
+```bash
+cd wifi-qr-generator
+```
+
+3. Instale as dependências:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Execute a aplicação:
+
+```bash
+python main.py
+```
 
 ---
 
 ## 🔒 Privacidade
 
-Todas as informações inseridas são **temporárias**. Ao fechar o programa, **nenhum dado é armazenado**.  
+Todas as informações informadas pelo usuário são processadas localmente.
+
+Nenhum dado é enviado para serviços externos ou armazenado permanentemente pela aplicação.
 
 ---
 
-## 👤 Autor
+## 💡 Casos de Uso
 
-**Arthur Franklin**  
-[GitHub: @arthurcfranklin](https://github.com/arthurcfranklin)  
+* Compartilhamento de redes Wi-Fi corporativas
+* Ambientes educacionais e laboratórios
+* Eventos e treinamentos
+* Redes domésticas
+* Suporte técnico e infraestrutura
 
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob a licença MIT.
