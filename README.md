@@ -1,9 +1,20 @@
 # 📶 WiFi QR Generator
-![Python](https://img.shields.io/badge/Python-3.11-blue) ![Tkinter](https://img.shields.io/badge/Tkinter-GUI-brightgreen) ![License](https://img.shields.io/badge/License-MIT-yellow)
+
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Tkinter](https://img.shields.io/badge/Tkinter-GUI-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
 Aplicação desktop desenvolvida em Python para geração de QR Codes de redes Wi-Fi, permitindo o compartilhamento rápido e seguro de credenciais sem a necessidade de digitação manual.
 
 O aplicativo gera QR Codes compatíveis com smartphones e dispositivos modernos, facilitando a conexão em redes domésticas, corporativas e ambientes de treinamento.
+
+---
+
+## 📥 Download
+
+A versão executável está disponível na seção **Releases** do projeto.
+
+**Versão atual:** `v1.0.0`
 
 ---
 
@@ -15,22 +26,16 @@ Simplificar o compartilhamento de redes Wi-Fi através da geração automatizada
 
 ## ✨ Funcionalidades
 
-* Geração de QR Codes para redes:
+* Geração de QR Codes para:
 
   * WPA
   * WEP
   * Redes sem senha
-
 * Validação de SSID e senha
-
 * Visualização do QR Code em tempo real
-
 * Exportação do QR Code em formato PNG
-
 * Abertura da imagem gerada diretamente pelo aplicativo
-
 * Funcionamento totalmente offline
-
 * Interface gráfica desenvolvida com Tkinter
 
 ---
@@ -51,6 +56,7 @@ Simplificar o compartilhamento de redes Wi-Fi através da geração automatizada
 wifi-qr-generator/
 ├── assets/
 ├── main.py
+├── requirements.txt
 ├── README.md
 └── .gitignore
 ```
